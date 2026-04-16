@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-11T18:11:48 IST" name="QKartProjectSuite" finished-at="2026-04-11T18:12:06 IST" duration-ms="18825">
+    <groups>
+    </groups>
+    <test started-at="2026-04-11T18:11:48 IST" name="AllTests" finished-at="2026-04-11T18:12:06 IST" duration-ms="18825">
+      <class name="classes.Class5BugScenario">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:classes.Class5BugScenario@5ddeb7cb]" started-at="2026-04-11T18:11:58 IST" name="setUp" finished-at="2026-04-11T18:12:04 IST" duration-ms="6124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentMethodsBug()[pri:0, instance:classes.Class5BugScenario@5ddeb7cb]" started-at="2026-04-11T18:12:04 IST" name="verifyPaymentMethodsBug" finished-at="2026-04-11T18:12:06 IST" duration-ms="1904" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug: Payment options are present, should not be selectable expected [0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug: Payment options are present, should not be selectable expected [0] but found [1]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at classes.Class5BugScenario.verifyPaymentMethodsBug(Class5BugScenario.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMethodsBug -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:classes.Class5BugScenario@5ddeb7cb]" started-at="2026-04-11T18:12:06 IST" name="tearDown" finished-at="2026-04-11T18:12:06 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- classes.Class5BugScenario -->
+      <class name="classes.Class4VerifyLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:classes.Class4VerifyLogin@24569dba]" started-at="2026-04-11T18:11:57 IST" name="setUp" finished-at="2026-04-11T18:12:04 IST" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFunctionality()[pri:0, instance:classes.Class4VerifyLogin@24569dba]" started-at="2026-04-11T18:12:04 IST" name="loginFunctionality" finished-at="2026-04-11T18:12:05 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:classes.Class4VerifyLogin@24569dba]" started-at="2026-04-11T18:12:05 IST" name="tearDown" finished-at="2026-04-11T18:12:06 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- classes.Class4VerifyLogin -->
+      <class name="classes.Class2ImageLinkCount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:classes.Class2ImageLinkCount@4d1c005e]" started-at="2026-04-11T18:11:48 IST" name="setUp" finished-at="2026-04-11T18:11:57 IST" duration-ms="9688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyImagesAndLinks()[pri:0, instance:classes.Class2ImageLinkCount@4d1c005e]" started-at="2026-04-11T18:11:57 IST" name="verifyImagesAndLinks" finished-at="2026-04-11T18:11:57 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagesAndLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:classes.Class2ImageLinkCount@4d1c005e]" started-at="2026-04-11T18:11:57 IST" name="tearDown" finished-at="2026-04-11T18:11:58 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- classes.Class2ImageLinkCount -->
+      <class name="classes.Class1UIValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:classes.Class1UIValidation@350aac89]" started-at="2026-04-11T18:11:48 IST" name="setUp" finished-at="2026-04-11T18:11:53 IST" duration-ms="5776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUIElements()[pri:0, instance:classes.Class1UIValidation@350aac89]" started-at="2026-04-11T18:11:53 IST" name="validateUIElements" finished-at="2026-04-11T18:11:58 IST" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUIElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:classes.Class1UIValidation@350aac89]" started-at="2026-04-11T18:11:58 IST" name="tearDown" finished-at="2026-04-11T18:11:58 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- classes.Class1UIValidation -->
+      <class name="classes.Class3VerifyText">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:classes.Class3VerifyText@8462f31]" started-at="2026-04-11T18:11:48 IST" name="setUp" finished-at="2026-04-11T18:11:57 IST" duration-ms="9095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTextAndURL()[pri:0, instance:classes.Class3VerifyText@8462f31]" started-at="2026-04-11T18:11:57 IST" name="verifyTextAndURL" finished-at="2026-04-11T18:11:57 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextAndURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:classes.Class3VerifyText@8462f31]" started-at="2026-04-11T18:11:57 IST" name="tearDown" finished-at="2026-04-11T18:11:57 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- classes.Class3VerifyText -->
+    </test> <!-- AllTests -->
+  </suite> <!-- QKartProjectSuite -->
+</testng-results>

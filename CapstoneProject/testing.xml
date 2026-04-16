@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Regression Suite" verbose="1">
+	<test name="Factorialtest" >
+		<classes>
+			<class name="factorialtest.Class1UIValidation"></class>
+			<class  name="factorialtest.Class2VerifyPageDetails"></class>
+			<class name="factorialtest.Class3DataDriven"></class>
+			<class name="factorialtest.Class4VerifyAboutLink"></class>
+			<class name="factorialtest.Class5DetectedBug"></class>
+		</classes>
+	</test>
+		
+</suite>
+	

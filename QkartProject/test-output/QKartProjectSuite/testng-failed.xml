@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [QKartProjectSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="AllTests(failed)">
+    <classes>
+      <class name="classes.Class5BugScenario">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyPaymentMethodsBug"/>
+        </methods>
+      </class> <!-- classes.Class5BugScenario -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [QKartProjectSuite] -->
